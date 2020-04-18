@@ -64,3 +64,4 @@ C:\Users\Angel Solares\Desktop\Laboratorio_FilmMagic\Laborartorio_FilmMagic\obj\
 C:\Users\Angel Solares\Desktop\Laboratorio_FilmMagic\Laborartorio_FilmMagic\obj\Debug\Laboratorio_FilmMagic.csproj.CopyComplete
 C:\Users\Angel Solares\Desktop\Laboratorio_FilmMagic\Laborartorio_FilmMagic\obj\Debug\Laborartorio_FilmMagic.exe
 C:\Users\Angel Solares\Desktop\Laboratorio_FilmMagic\Laborartorio_FilmMagic\obj\Debug\Laborartorio_FilmMagic.pdb
+C:\Users\Angel Solares\Desktop\Laboratorio_FilmMagic\Laborartorio_FilmMagic\obj\Debug\Laborartorio_FilmMagic.Procesos.Proceso_Rentar.resources

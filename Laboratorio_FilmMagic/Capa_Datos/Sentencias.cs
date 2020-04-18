@@ -695,6 +695,22 @@ namespace Capa_Datos
             }
         }
 
-
+        //--------Insertar Encabezado renta
+        public OdbcDataReader InsertarRentaEncabezado(string sCodigo, string sMembresia, string sFechaA, string sFechaE, string sSucursal)
+        {
+            try
+            {
+                cn.conexionbd();
+                string consulta = "insert into renta_encabezado values(" + sCodigo + ", " + sMembresia + " ,'" + sFechaA + "','"+sFechaE+"'"+sSucursal+");";
+                comm = new OdbcCommand(consulta, cn.conexionbd());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
     }
 }

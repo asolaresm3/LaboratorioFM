@@ -160,6 +160,12 @@
     <Compile Include="Menu_Principal.Designer.cs">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Procesos\Proceso_Rentar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Proceso_Rentar.Designer.cs">
+      <DependentUpon>Proceso_Rentar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Consultas\Frm_consultaAutor.resx">
@@ -218,6 +224,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Proceso_Rentar.resx">
+      <DependentUpon>Proceso_Rentar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

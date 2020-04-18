@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Laborartorio_FilmMagic;
 using Laborartorio_FilmMagic.Mantenimiento;
 using Laborartorio_FilmMagic.Mantenimientos;
+using Laborartorio_FilmMagic.Procesos;
 
 namespace Laborartorio_FilmMagic
 {
@@ -319,6 +320,30 @@ namespace Laborartorio_FilmMagic
             else
             {
                 sucursal.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanarenta = false;
+        Proceso_Rentar renta = new Proceso_Rentar();
+        private void RentarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Proceso_Rentar);
+            if (ventanarenta == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    renta = new Proceso_Rentar();
+                }
+
+                renta.MdiParent = this;
+                renta.Show();
+                Application.DoEvents();
+                ventanarenta = true;
+
+            }
+            else
+            {
+                renta.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
     }

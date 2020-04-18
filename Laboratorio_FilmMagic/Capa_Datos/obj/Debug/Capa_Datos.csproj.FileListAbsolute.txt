@@ -10,3 +10,9 @@ C:\Users\Angel Solares\Desktop\Laborartorio_FilmMagic\Capa_Datos\obj\Debug\Capa_
 C:\Users\Angel Solares\Desktop\Laborartorio_FilmMagic\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
 C:\Users\Angel Solares\Desktop\Laborartorio_FilmMagic\Capa_Datos\obj\Debug\Capa_Datos.dll
 C:\Users\Angel Solares\Desktop\Laborartorio_FilmMagic\Capa_Datos\obj\Debug\Capa_Datos.pdb
+C:\Users\Angel Solares\Desktop\Laboratorio_FilmMagic\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\Angel Solares\Desktop\Laboratorio_FilmMagic\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\Angel Solares\Desktop\Laboratorio_FilmMagic\Capa_Datos\obj\Debug\Capa_Datos.csprojAssemblyReference.cache
+C:\Users\Angel Solares\Desktop\Laboratorio_FilmMagic\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\Angel Solares\Desktop\Laboratorio_FilmMagic\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\Angel Solares\Desktop\Laboratorio_FilmMagic\Capa_Datos\obj\Debug\Capa_Datos.pdb

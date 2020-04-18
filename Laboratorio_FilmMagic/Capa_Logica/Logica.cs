@@ -260,13 +260,18 @@ namespace Capa_Logica
 
         }
         //-------------------------------------------------------------------------------------------------------------------------------------------------------------//
-        //------------------------------------------------------------------------------------------------------UPDATE-------------------------------------------------------//
+        //------------------------------------------------------------------------------------------------------ELIMINAR-------------------------------------------------------//
         public OdbcDataReader eliminarproducto(string sCodigo)
         {
             return sn.eliminarproducto(sCodigo);
 
         }
 
+        //----------INSERTAR ENCABEZADO
+        public OdbcDataReader insertarEncabezadoRenta(string sCodigo, string sMembresia, string sFechaA, string sFechaE, string sSucursal)
+        {
+            return sn.InsertarRentaEncabezado(sCodigo,sMembresia,sFechaA,sFechaE,sSucursal);
+        }
 
     }
 }
